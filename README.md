@@ -1,12 +1,12 @@
 
 
-Urraca Backup Tool (Ubtool)
+Urraca Backup Tool (urracabt)
 ===========================
 ---------------------------
 
-Ubtool es una interface gráfica de usuario para crear copias de
+Urracabt es una interface gráfica de usuario para crear copias de
 seguridad basada en el comando rsync en Gnu/Linux. El comando rsync
-también puede ejecutarse en un sistema Windows pero Ubtool hace 
+también puede ejecutarse en un sistema Windows pero urracabt hace
 uso de algunos comandos del sistema Gnu/Linux a través de subprocesos
 en el lenguaje Python por lo que no sería posible usar esta utilidad
 en este sistema.
@@ -14,14 +14,16 @@ en este sistema.
 ![Principal.jpg](/screenshots/principal.jpg)
 
 
-El objetivo de Ubtool es facilitar el uso de rsync a través de una
+El objetivo de urracabt es facilitar el uso de rsync a través de una
 interfaz gráfica de usuario. Tiene la posibilidad de gestionar procesos
 de copia de forma local (ej: unidades de discos externos) así como en
-emplazamientos remotos. En este caso es posible acceder mediante una
-password o una llave pública. Ubtool no gestiona la creación de llaves
-privadas/públicas ni la compartición de estas llaves con un servidor 
-remoto, esto debe hacerse por el usuario o administador del sistema 
-de forma independiente.
+emplazamientos remotos. En este caso, es posible acceder mediante una
+contraseña o una llave pública para la conexión a través de ssh.
+Urracabt no gestiona la creación de llaves privadas/públicas ni la
+compartición de estas llaves con un servidor remoto, esto debe hacerlo
+el usuario o administador del sistema de forma independiente.
+
+---
 
 
 Opciones de sincronización
@@ -29,7 +31,6 @@ Opciones de sincronización
 
 ### Opciones por defecto (Transparentes al usuario)  
 
-                       
 
     Algunas opciones del comando rsync están añadidas por defecto. Por ejemplo,
 	se ha considerado como una buena práctica mantener los atributos originales
@@ -61,7 +62,7 @@ el lenguaje Python.
 
 ### Opciones de Usuario
 
-    Ubtool cuenta con opciones para la ejecución que se muestran en la
+    Urracabt cuenta con opciones para la ejecución que se muestran en la
 	pantalla principal y se explican por sí mismas:
 
 	- Conservar enlaces simbólicos de los archivos.
@@ -76,6 +77,7 @@ el lenguaje Python.
       disminuir el tiempo empleado en esta. Puede ser útil en procesos
       remotos.
 
+---
 
 Múltiples configuraciones
 -------------------------
@@ -86,11 +88,24 @@ Múltiples configuraciones
 	Cada una de ella es almacenada en un archivo de configuración
 	independiente y fácilmente accesible a través del menú.
 
+---
+
 Programador cron
 ----------------
 
 	Pueden construirse órdenes para cron que serán enviadas automáticamente
-	usando los parámetros especificados en la configuración actual.
+	usando los parámetros especificados en la configuración actual. Además
+	se comprueba que una orden enviada a cron no exista en el archivo de
+	cron, evitando así duplicados en las órdenes.
 
 ![programador_cron.jpg](/screenshots/programador_cron.jpg)
 
+---
+
+Idiomas
+-------
+
+	En la barra de menús existe un desplegable que permite seleccionar entre
+	el idioma Español y el Inglés.
+
+---
