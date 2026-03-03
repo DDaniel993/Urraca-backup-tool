@@ -1,7 +1,6 @@
-
 Urraca Backup Tool (urracabt)
 ===========================
----------------------------
+
 [Léalo en Español](https://github.com/DDaniel993/Urraca-backup-tool/blob/main/README_es.md)
 
 Urracabt is a graphical user interface for creating backups based on the `rsync`
