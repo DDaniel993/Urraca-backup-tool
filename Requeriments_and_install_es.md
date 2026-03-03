@@ -1,8 +1,5 @@
-
-
 Urraca Backup Tool (urracabt)
 ===========================
----------------------------
 
 Requerimientos e instalación
 -------------------------------
