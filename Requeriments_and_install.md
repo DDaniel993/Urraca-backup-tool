@@ -1,8 +1,6 @@
-
-
 Urraca Backup Tool (urracabt)
 ===========================
----------------------------
+
 [Léalo en Español](https://github.com/DDaniel993/Urraca-backup-tool/blob/main/Requeriments_and_install_es.md)
 
 Requirements and Installation
