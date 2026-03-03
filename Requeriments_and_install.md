@@ -3,7 +3,7 @@
 Urraca Backup Tool (urracabt)
 ===========================
 ---------------------------
-[Léalo en Español](Urraca-backup-tool/README_es.md)
+[Léalo en Español](Urraca-backup-tool/Requeriments_and_install_es.md)
 
 Requirements and Installation
 -----------------------------
