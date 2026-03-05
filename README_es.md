@@ -2,7 +2,7 @@
 
 Urraca Backup Tool (urracabt)
 ===========================
----------------------------
+
 
 Urracabt es una interface gráfica de usuario para crear copias de
 seguridad basada en el comando rsync en Gnu/Linux. El comando rsync
