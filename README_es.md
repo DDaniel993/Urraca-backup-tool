@@ -42,26 +42,29 @@ Opciones de sincronización
 ### Opciones por defecto (Transparentes al usuario)  
 
 
-    Algunas opciones del comando rsync están añadidas por defecto. Por ejemplo,
-	se ha considerado como una buena práctica mantener los atributos originales
-	de los archivos que se copian. 
+Algunas opciones del comando rsync están añadidas por defecto. Por ejemplo,
+se ha considerado como una buena práctica mantener los atributos originales
+de los archivos que se copian. 
 
-	* La opción -a en el comando rsync asegura que los enlaces
-	  simbólicos, permisos y  propietario de los ficheros sean preservados.
+- La opción `-a` en el comando rsync asegura que los enlaces
+  simbólicos, permisos y  propietario de los ficheros sean preservados.
  
-	* La opción -P en el comando rsync incluye dos flags:
-      --progress muestra el progreso durante la sincronización y
-      --partial que permite mantener archivos parcialmente transferidos
-	  si	la copia se interrumpe para poder reanudar después. Ubtool no 
-	  permite, atendiendo a las recomendaciones propias de rsync, detener
-      un proceso de copia una vez que este ha sido iniciado. Por tanto,
-      el flag --partial sería útil en casos en los que algún problema
-	  hiciese discontinuar la ejecución del programa.
+- La opción `-P` en el comando rsync incluye dos flags:
+  - `--progress` muestra el progreso durante la sincronización y
+    `--partial` que permite mantener archivos parcialmente transferidos
+	  si la copia se interrumpe para poder reanudar después. 
 
-	* La opción -v (verbose), proporciona  información de salida durante
-	  el proceso de copia, lo que ayudará a comprobar que todo se desarrolla
-	  de la forma que se desee. Toda esa información puede leerse en tiempo
-	  real en una ventana de log de la actividad de los procesos.
+> ⚠️ **Note**: Ubtool no  permite, atendiendo a las recomendaciones
+	   propias de rsync, detener un proceso de copia una vez que este
+       ha sido iniciado. Por tanto, el flag --partial sería útil en
+       casos en los que algún problema hiciese discontinuar la
+       ejecución del programa.
+
+
+- La opción -v (verbose), proporciona  información de salida durante
+  el proceso de copia, lo que ayudará a comprobar que todo se desarrolla
+  de la forma que se desee. Toda esa información puede leerse en tiempo
+  real en una ventana de log de la actividad de los procesos.
 
 
 Estas opciones están incluídas en el código del programa y resultan
