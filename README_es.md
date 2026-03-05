@@ -2,7 +2,7 @@
 
 > **Interfaz gráfica para copias de seguridad con `rsync` en GNU/Linux**
 
-Urraca Backup Tool (urracabt) es una aplicación gráfica para crear copias de seguridad basadas en el comando `rsync`, diseñada específicamente para sistemas GNU/Linux. Aunque `rsync` también funciona en Windows, urracabt depende de comandos del sistema Linux, por lo que **no es compatible con Windows**.
+Urraca Backup Tool (urracabt) es una aplicación gráfica para crear copias de seguridad basadas en el comando `rsync`, diseñada específicamente para sistemas GNU/Linux. Aunque `rsync` también funciona en Windows, urracabt depende de comandos del sistema Linux.
 
 ![Principal.jpg](/screenshots/principal_es.jpg)
 
@@ -105,12 +105,14 @@ urracabt/
 
 Haz un fork del repositorio.
 Crea una rama nueva:
- 
-   git checkout -b feature/nombre
+   git checkout -b feature/nombre 
 
 Haz tus cambios y commítalos: git commit -am 'Añade nueva funcionalidad'
+
 Sube la rama: git push origin feature/nombre
+
 Abre un Pull Request.
+
 ---
 
 ## 📄 Licencia
