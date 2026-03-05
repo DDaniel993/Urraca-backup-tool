@@ -14,7 +14,7 @@ Urraca Backup Tool (urracabt) is a graphical user interface for creating backups
 - Language support: Spanish and English
 - **Optional password encryption**: When using password-based authentication (instead of SSH public key), urracabt encrypts the password locally using the `cryptography` library before saving it to the configuration file.
 
-![Principal.jpg](/screenshots/principal.jpg)
+![Principal.jpg](/screenshots/principal_en.jpg)
 
 It supports managing backup processes locally (e.g., external drives) as well as on remote locations. In the latter case, access can be established via password or public key authentication over SSH. Note: **urracabt does not manage the creation or distribution of SSH key pairs** — this must be handled independently by the user or system administrator.
 
@@ -58,7 +58,7 @@ You can manage different backup configurations to suit your needs — for exampl
 
 Urracabt can generate and install cron jobs using the parameters from the current configuration. It also checks for existing entries to avoid duplicates in the user’s crontab.
 
-![programador_cron.jpg](/screenshots/programador_cron.jpg)
+![programador_cron.jpg](/screenshots/programador_cron_en.jpg)
 
 ---
 
