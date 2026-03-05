@@ -75,17 +75,17 @@ el lenguaje Python.
 
 ### Opciones de Usuario
 
-    Urracabt cuenta con opciones para la ejecución que se muestran en la
-	pantalla principal y se explican por sí mismas:
+Urracabt cuenta con opciones para la ejecución que se muestran en la
+pantalla principal y se explican por sí mismas:
 
-	- Conservar enlaces simbólicos de los archivos.
+- **Conservar enlaces simbólicos de los archivos.**
 
-	- Copiar el archivo enlazado.
+- **Copiar el archivo enlazado.**
 
-	- Borrar fichero en destino si ese fichero ha dejado de existir en
-      origen.
+- **Borrar fichero en destino si ese fichero ha dejado de existir en
+  origen.**
 
-    - Comprimir durante la copia. Esta opción no produce ficheros de copia
+- **Comprimir durante la copia.** Esta opción no produce ficheros de copia
       finales comprimidos. Comprime los datos durante la copia para
       disminuir el tiempo empleado en esta. Puede ser útil en procesos
       remotos.
@@ -95,21 +95,21 @@ el lenguaje Python.
 Múltiples configuraciones
 -------------------------
 
-	Pueden gestionarse diferentes configuraciones para cubrir las
-	necesidades del usuario. Por ejemplo, mantener una copia de los archivos
-	y directorios de forma local y una segunda copia en un servidor remoto.
-	Cada una de ella es almacenada en un archivo de configuración
-	independiente y fácilmente accesible a través del menú.
+Pueden gestionarse diferentes configuraciones para cubrir las
+necesidades del usuario. Por ejemplo, mantener una copia de los archivos
+y directorios de forma local y una segunda copia en un servidor remoto.
+Cada una de ella es almacenada en un archivo de configuración
+independiente y fácilmente accesible a través del menú.
 
 ---
 
 Programador cron
 ----------------
 
-	Pueden construirse órdenes para cron que serán enviadas automáticamente
-	usando los parámetros especificados en la configuración actual. Además
-	se comprueba que una orden enviada a cron no exista en el archivo de
-	cron, evitando así duplicados en las órdenes.
+Pueden construirse órdenes para cron que serán enviadas automáticamente
+usando los parámetros especificados en la configuración actual. Además
+se comprueba que una orden enviada a cron no exista en el archivo de
+cron, evitando así duplicados en las órdenes.
 
 ![programador_cron.jpg](/screenshots/programador_cron.jpg)
 
@@ -118,7 +118,7 @@ Programador cron
 Idiomas
 -------
 
-	En la barra de menús existe un desplegable que permite seleccionar entre
-	el idioma Español y el Inglés.
+En la barra de menús existe un desplegable que permite seleccionar entre
+el idioma Español y el Inglés.
 
 ---
