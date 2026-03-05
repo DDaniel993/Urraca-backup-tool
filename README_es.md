@@ -19,7 +19,7 @@ en este sistema.
 - Gestión de múltiples configuraciones
 - Programador cron integrado
 - Soporte para idiomas: Español e Inglés
-
+- **Cifrado opcional de contraseñas**: Cuando se usa autenticación por contraseña (en lugar de clave pública SSH), urracabt encripta la contraseña localmente usando la biblioteca `cryptography` para protegerla en el archivo de configuración.
 
 ![Principal.jpg](/screenshots/principal.jpg)
 
@@ -122,3 +122,8 @@ En la barra de menús existe un desplegable que permite seleccionar entre
 el idioma Español y el Inglés.
 
 ---
+## Seguridad y encriptado
+
+Cuando se utiliza autenticación por **contraseña** (en lugar de clave pública SSH), urracabt encripta la contraseña localmente usando la biblioteca `cryptography` antes de guardarla en el archivo de configuración. Esto evita que la contraseña quede expuesta en texto plano.
+
+> 🔐 **Nota**: La encriptación es local y protege la contraseña en el archivo de configuración. 
