@@ -1,6 +1,6 @@
 # Urraca Backup Tool (urracabt)
 
-![Lealo en Español](/Readme_es.md)
+![Lealo en Español](https://github.com/DDaniel993/Urraca-backup-tool/blob/main/README_es.md)
 
 > **Graphical interface for backups with `rsync` on GNU/Linux**
 
