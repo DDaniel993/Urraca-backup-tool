@@ -3,6 +3,8 @@
 
 > **Graphical interface for backups using `rsync` on GNU/Linux**
 
+![Léalo en Español](README_es.md)
+
 Urraca Backup Tool (urracabt) is a graphical application for creating backups based on the `rsync` command, specifically designed for GNU/Linux systems. Although `rsync` also works on Windows, urracabt relies on Linux system commands, so **it is not compatible with Windows**.
 
 ![Main Interface](/screenshots/principal_es.jpg)
